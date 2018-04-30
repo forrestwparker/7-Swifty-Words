@@ -2,14 +2,16 @@
 //  ViewController.swift
 //  7 Swifty Words
 //
-//  Created by Forrest Parker on 4/30/18.
-//  Copyright © 2018 Forrest Parker. All rights reserved.
-//
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var cluesLabel: UILabel!
+    @IBOutlet weak var answersLabel: UILabel!
+    @IBOutlet weak var currentAnswer: UITextField!
+    @IBOutlet weak var scoreLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +22,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func submitTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func clearTapped(_ sender: UIButton) {
+    }
 }
 
